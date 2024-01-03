@@ -12,7 +12,6 @@ h1 {
 section {
     width: 85px;
     float: right;
-    clear: both;
     text-align: center;
     font-size: 125%;
     border: 1px solid rgb(18, 7, 7);
