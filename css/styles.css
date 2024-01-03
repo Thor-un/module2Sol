@@ -1,0 +1,63 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+  margin-bottom: 25px;
+  font-size: 175%;
+  text-align: center;
+}
+
+section {
+    width: 85px;
+    float: right;
+    clear: both;
+    text-align: center;
+    font-size: 125%;
+    border: 1px solid rgb(18, 7, 7);
+    margin: 0%;
+}
+
+div {
+    height: 225px;
+    border: 1px solid rgb(18, 7, 7);
+    margin: 5px;
+    overflow: auto;
+    background-color: rgb(200, 208, 209);
+}
+
+#section1 {
+    background-color: aquamarine;
+}
+
+#section2 {
+    background-color: rgb(194, 120, 96);
+}
+
+#section3 {
+    background-color: rgba(64, 70, 149, 0.342);
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: calc(33.33% - 10px);
+    margin: 5px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: calc(50% - 10px);
+    margin: 5px;
+  }
+  .col-md-12 {
+    float: left;
+    width: calc(100% - 10px);
+    margin: 5px;
+  }
+}
